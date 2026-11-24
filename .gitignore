@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# Training dataset
+backend/phishing_site_urls.csv
+
+# Old and duplicate model artifacts
+backend/phishing_model.pkl
+backend/vectorizer.pkl
+backend/phishing_model_candidate.pkl
+backend/phishing_model_domain_candidate.pkl
+backend/vectorizer_candidate.pkl
+backend/vectorizer_domain_candidate.pkl
+
+# Generated reports
+backend/PhishGuard_Report.pdf
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
